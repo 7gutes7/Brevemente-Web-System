@@ -1,4 +1,6 @@
-# Htaccess configuration for Hostinger (Next.js Static Export)
+# Htaccess configuration for Apache / Hostinger / cPanel (Next.js Static Export)
+DirectoryIndex index.html
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
