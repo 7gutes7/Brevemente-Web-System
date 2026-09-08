@@ -14,7 +14,7 @@ const features: Feature[] = [
     icon: "sparkles",
     title: "Rellenado con IA",
     description:
-      "Brifi escucha la sesión y documenta el expediente completo: PX, F1/F2, observaciones, OSS/ADD/RSS/EFF y valoraciones. Tú solo revisas y apruebas.",
+      "Brifi escucha la sesión y documenta el expediente completo: historia clínica, prescripciones, cumplimiento, evolución del cambio, efectos terapéuticos. Tú solo revisas y apruebas.",
     tag: "Expediente en segundos",
     span: "md:col-span-7",
   },
@@ -22,7 +22,7 @@ const features: Feature[] = [
     icon: "clipboard",
     title: "Modo manual guiado",
     description:
-      "Cuando prefieras documentar a mano, los menús se despliegan automáticamente según el protocolo y el DX.OP seleccionado.",
+      "Cuando tú o tu paciente prefieran la documentación a mano, se despliegan menús de rellenado con un solo clic según el padecimiento / protocolo DXOP seleccionado.",
     tag: "Flexibilidad total",
     span: "md:col-span-5",
     tone: "conciencia",
@@ -31,7 +31,7 @@ const features: Feature[] = [
     icon: "book",
     title: "Biblioteca digital",
     description:
-      "CIE-11, DSM-5-TR, Manuales TBE y 32 Protocolos TBE al alcance de un clic, integrados al flujo de trabajo clínico.",
+      "CIE-11, DSM-5-TR, Manuales TBE y 32 Protocolos TBE al alcance de un clic y para consultar, integrados al flujo de trabajo clínico.",
     span: "md:col-span-5",
   },
   {
@@ -53,7 +53,7 @@ const features: Feature[] = [
     icon: "chart",
     title: "Tu desempeño",
     description:
-      "Analíticas de citas, demografía de pacientes y resolución de casos para tomar mejores decisiones en tu práctica.",
+      "Analíticas de citas, demografía de pacientes y resolución de casos para tomar mejores decisiones en tu práctica y estar apegado a los requerimientos de la normatividad que garantizan una práctica clínica formal y segura.",
     span: "md:col-span-6",
     tone: "conciencia",
   },

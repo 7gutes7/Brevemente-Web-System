@@ -34,10 +34,10 @@ export function CTA() {
               Únete a la nueva era clínica
             </p>
             <h2 className="mx-auto mt-4 max-w-2xl text-3xl font-bold leading-tight tracking-tight text-white sm:text-5xl">
-              Vivir mejor, <span className="italic text-conciencia">cuidar mejor.</span>
+              Cuidar mejor, <span className="italic text-conciencia">vivir mejor.</span>
             </h2>
             <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-white/80">
-              Agenda una demostración y descubre cuánto tiempo puedes devolverle a tu consulta
+              Agenda una demostración y descubre cuánto tiempo y calidad puedes devolverle a tu consulta
               — y a tu vida.
             </p>
 

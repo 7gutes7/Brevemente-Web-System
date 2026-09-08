@@ -34,7 +34,7 @@ export function Navbar() {
           <a href="#inicio" className="flex items-center py-1" aria-label="BreveMente inicio">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/Brevemente01.png"
+              src="/BrevementeHeader.png"
               alt="BreveMente"
               className="h-9 md:h-10 w-auto object-contain"
             />

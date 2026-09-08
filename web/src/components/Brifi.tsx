@@ -44,7 +44,7 @@ function BrifiChat() {
               En el SPR fóbico (FOB) el miedo se activa ante estímulos externos; en el
               obsesivo-fóbico (OF) predomina la anticipación catastrófica sobre sensaciones
               internas. Según el protocolo de Ataque de Pánico, el indicador clave es la
-              evitación progresiva de situaciones. ¿Deseas aplicarlo al expediente?
+              evitación progresiva de situaciones y la toma de precauciones. ¿Deseas aplicarlo al expediente?
               <div className="mt-3 flex flex-wrap gap-2">
                 <button className="rounded-lg bg-neural px-3.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-neural-dark">
                   Aplicar al expediente
@@ -124,7 +124,7 @@ export function Brifi() {
               {
                 title: "Rellena expedientes",
                 description:
-                  "Con un clic documenta la sesión completa: historial, PX, valoraciones y observaciones.",
+                  "Con un clic documenta la sesión completa: historial, PX, evaluación del cambio, valoraciones y observaciones.",
               },
               {
                 title: "Consulta sobre casos",

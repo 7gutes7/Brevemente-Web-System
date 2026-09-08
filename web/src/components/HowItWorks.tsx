@@ -25,6 +25,12 @@ const steps: { icon: IconName; title: string; description: string }[] = [
     description:
       "Al detener, un solo clic y el expediente queda documentado: historial estructurado, PX y valoraciones. Tú solo apruebas.",
   },
+  {
+    icon: "clipboard",
+    title: "Modo manual",
+    description:
+      "Documentación manual, fácil y sencilla si tú o tu paciente no quieren IA.",
+  },
 ];
 
 export function HowItWorks() {
@@ -43,20 +49,20 @@ export function HowItWorks() {
           </p>
         </div>
 
-        <ol className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <ol className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-5">
           {steps.map((s, i) => (
             <li
               key={s.title}
-              className="relative rounded-3xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm transition-colors hover:bg-white/10"
+              className="relative rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-colors hover:bg-white/10"
             >
-              <span className="absolute right-6 top-6 text-5xl font-bold leading-none text-white/10">
+              <span className="absolute right-5 top-5 text-4xl font-bold leading-none text-white/10">
                 {String(i + 1).padStart(2, "0")}
               </span>
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-conciencia text-neural-deep">
-                <Icon name={s.icon} className="h-6 w-6" />
+              <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-conciencia text-neural-deep">
+                <Icon name={s.icon} className="h-5 w-5" />
               </span>
-              <h3 className="mt-6 text-lg font-semibold text-white">{s.title}</h3>
-              <p className="mt-2.5 text-sm leading-relaxed text-white/75">{s.description}</p>
+              <h3 className="mt-5 text-base font-semibold text-white">{s.title}</h3>
+              <p className="mt-2 text-xs leading-relaxed text-white/75">{s.description}</p>
             </li>
           ))}
         </ol>
