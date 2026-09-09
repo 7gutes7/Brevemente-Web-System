@@ -1,6 +1,7 @@
 # Dependencies
 node_modules/
 web/node_modules/
+prototipo/brevemente-system/node_modules/
 .pnp
 .pnp.*
 .yarn/*
@@ -9,10 +10,9 @@ web/node_modules/
 !.yarn/releases
 !.yarn/versions
 
-# Next.js build outputs
+# Next.js build cache (temporary)
 .next/
 web/.next/
-out/
 web/out/
 build/
 web/build/
@@ -26,6 +26,9 @@ web/coverage/
 *.pem
 *.tsbuildinfo
 web/next-env.d.ts
+compilado/
+*.pdf
+
 
 # Logs
 *.log
