@@ -26,7 +26,7 @@ export function Hero() {
 
       <div className="mx-auto max-w-4xl px-5 text-center lg:px-8">
         <h1 className="text-4xl font-bold leading-[1.15] tracking-tight text-neural-deep sm:text-5xl lg:text-6xl">
-          El futuro del diagnóstico es{" "}
+          El futuro del TRATAMIENTO DE SALUD MENTAL es{" "}
           <span className="text-conciencia-dark">humano</span>, potenciado por IA.
         </h1>
 
